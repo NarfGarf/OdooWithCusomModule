@@ -7,3 +7,4 @@ class BibliotecaLibro(models.Model):
   fecha_publicacion = fields.Date("Fecha de publicación")
   paginas = fields.Integer("Número de páginas")
   disponible = fields.Boolean("Disponible", default=True)
+pass
